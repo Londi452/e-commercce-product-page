@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+  box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+#menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section{
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+#home{
+ background-image: url('newPic.jpg'); 
+    
+ background-color: rgb(5, 5, 6);  
+ background-position:top,right,right;
+ 
+ 
+}
+
+
+
+#about{
+  background-image: url('newPic.jpg'); 
+    
+  background-color: rgb(5, 5, 6);  
+  background-position:top,right,right;
+  
+}
+
+
+#contact{
+  background-image: url('newPic.jpg'); 
+    
+ background-color: rgb(5, 5, 6);  
+ background-position:top,right,right;
+ 
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+
+
+
+p1{
+
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Aria", sans-serif;
+  font-style: italic;
+  text-align: center;
+  color:rgb(241, 241, 241);
+  
+
+
+}
+
+p2{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Aria", sans-serif;
+  font-style: italic;
+  text-align: center;
+  color:rgb(241, 241, 241);
+  
+
+
+
+}
+
+.bottom-text-container {
+  position: absolute;
+  bottom: 45%;
+  left: 35%;
+  transform: translateX(-94%);  /* Center the text horizontally */
+  margin: 0 40px 20px 0;  /* Optional margins for spacing */
+}
+
+
+.illusion-text {
+  animation: riseUp 2s ease-in-out;  /* Animation name, duration, timing function */
+}
+
+@keyframes riseUp {
+  from {
+    transform: translateY(50px); /* Start position: 50px down */
+  }
+  to {
+    transform: translateY(0px);  /* End position: back to original location */
+  }
+}
+
+.my-video{
+
+   position: absolute;
+   top: 32%;
+   right: 5%;
+   display: inline-block; /* Allow for inline display */
+   padding: 10px 20px; /* Add padding */
+   border: 5px solid #ccc; /* Add border */
+   border-radius: 25px;
+
+}
+ 
+
+.bio-text{
+  position: absolute;
+  top:25%;
+  left:10px;
+  font-size: large;
+  color:white ;
+  
+
+}
+
+
+.myPicture{
+   
+  position: absolute;
+  top:25%;
+  right: 20%;
+  
+  display: inline-block; /* Allow for inline display */
+  padding: 10px 20px; /* Add padding */
+  border: 10px solid #ccc; /* Add border */
+  border-radius: 23px;
+
+
+}
+
+.twitter 
+{
+   position: absolute;
+   left: 100px;
+   bottom:5%;
+    width: 40px;
+
+}
+
+.facebook 
+{
+   position: absolute;
+   left: 250px;
+   bottom:5%;
+
+
+}
+
+.instagram 
+{
+   position: absolute;
+   left: 400px;
+   bottom:5%;
+
+
+}
+
+.email 
+{
+   position: absolute;
+   right: 100px;
+   bottom:5%;
+
+
+}
+
+.Cellphone
+{
+   position: absolute;
+   right: 250px;
+   bottom:5%;
+
+
+}
+
+
+.linkedin
+{
+   position: absolute;
+   right: 400px;
+   bottom:5%;
+
+
+}
+
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  right: 10px; ;
+  top: 60px;
+
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+
+
+
+
